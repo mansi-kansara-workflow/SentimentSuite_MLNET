@@ -1,0 +1,24 @@
+{
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5004"
+    },
+    "https": {
+      "commandName": "Project",
+      "workingDirectory": "D:\\Practice\\MLNET\\Projects\\Sentiment\\SentimentSuite\\SentimentSuite.AnalyzerConsole\\bin\\Debug\\net9.0",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7209;http://localhost:5004"
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json"
+}
